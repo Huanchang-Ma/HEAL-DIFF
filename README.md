@@ -1,6 +1,6 @@
 # HEAL_DIFF
 
-This directory contains the DP-SGD ablation workflow for multi-view electronic health record (EHR) imputation and downstream prediction. The three views are diagnoses (`conditions`), procedures (`procedures`), and medications (`drugs`). See the [project README](../README.md) for the original Diffmv paper and environment.
+This directory contains the DP-SGD ablation workflow for multi-view electronic health record (EHR) imputation and downstream prediction. The three views are diagnoses (`conditions`), procedures (`procedures`), and medications (`drugs`).
 
 The entry point is [`main_unify_DiffmvDP0420_Ablation.py`](main_unify_DiffmvDP0420_Ablation.py). It prepares patient-level train, validation, and test splits, calls [`train_dffs_DiffmvDP0420_Ablation2.py`](train_dffs_DiffmvDP0420_Ablation2.py), generates augmented samples, and runs downstream prediction.
 
