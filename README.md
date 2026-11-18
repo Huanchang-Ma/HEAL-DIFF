@@ -1,4 +1,4 @@
-# Diffmv / MMHealth
+# HEAL_DIFF
 
 This directory contains the DP-SGD ablation workflow for multi-view electronic health record (EHR) imputation and downstream prediction. The three views are diagnoses (`conditions`), procedures (`procedures`), and medications (`drugs`). See the [project README](../README.md) for the original Diffmv paper and environment.
 
